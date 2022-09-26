@@ -1,38 +1,90 @@
-.App {
+.main_container{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  margin: 40px 100px;
+  background-color: #F4FDFD;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.heading{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.user_list{
+  margin: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.user{
+ background-color :#6486B3;
+ border-radius: 10px;
+ width: 100%;
+ padding: 10px;
+ display: flex;
+ flex-direction: row;
+ gap: 5px;
+ margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.avtar{
+  border-radius: 50px;
+  padding: 20px 45px;
+  background-color :#b4cae6;
+  color: #fff;
+}
+
+.details{
+  padding: 8px 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.company_name{
+  font-size: 14px;
+  font-weight:650;
+}
+
+.company_details{
+  font-size: 12px;
+  font-weight:600;
+}
+
+.detail_info{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.particular_sec{
+  margin-left: 5px;
+  color: #fff;
+}
+
+.lower_section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.button{
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #6486B3;
+  color: #fff;
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.no_prev{
+  display: flex;
+  justify-content: right;
 }
